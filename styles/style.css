@@ -188,9 +188,16 @@ Primary use: Multipurpose Template
 /* Define styles for different screen sizes */
 /* ================================================= */
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1595px) {
+  .row .experience {
+    flex-direction: row;
+  }
+  .row .experience .experience-item {
+    flex-direction: column-reverse;
+  }
   
 }
+
 
 @media only screen and (max-width: 1365px) {
   .body-top .about-me-text {
@@ -225,8 +232,6 @@ Primary use: Multipurpose Template
     justify-content: center;
   }
 }
-
-
 
 nav .fas {
   display: none;
@@ -277,7 +282,6 @@ nav .fas {
   }
   body header.sticky nav ul {
     padding: 0 1rem;
-    
   }
   .nav-btn {
     display: block;
@@ -330,6 +334,18 @@ nav .fas {
   }
 }
 
+@media only screen and (max-width: 570px) {
+  #hero .hero-text {
+    padding-right: 0rem;
+    padding-left: 5.5rem;
+    text-align: left;
+  }
+  #hero .hero-text .hero-text-bottom {
+    display: flex;
+    padding-left: 0;
+  }
+}
+
 @media only screen and (max-width: 535px) {
   #bio-container {
     padding: 0 20px;
@@ -353,12 +369,58 @@ nav .fas {
   max-width: 422px;
   min-width: 422px;
   }
+  .col-10 .hs-title-5 .d-block {
+    font-size: 3.75rem;
+  }
+  .portfolio .portfolio-card {
+    width: 28rem;
+    min-width: 28rem;
+    max-width: 28rem;
+    height: 702px;
+  }
   .portfolio .portfolio-card h3 {
     font-size: 1.5rem;
+  }
+  body .portfolio-card .info-layer .date-info{
+    font-size: 0.875rem;
+  }
+  .portfolio-card .info-layer ul li {
+    font-size: 0.875rem;
+  }
+  .info-layer .devicon-info-board .info-box i {
+    font-size: 1.75em;
+  }
+  
+}
+
+@media only screen and (max-width: 500px) {
+  .portfolio .portfolio-card {
+    width: 26rem;
+    min-width: 26rem;
+    max-width: 26rem;
+    height: 652px;
+  }
+  .info-layer .devicon-info-board {
+    padding-bottom: 0.625rem;
+  }
+  .info-layer .devicon-info-board .info-box i {
+    font-size: 1.625em;
+  }
+  .portfolio-card .info-layer .project-links {
+    margin-bottom: 1.5rem;
+  }
+  .portfolio-card .info-layer .project-links .btn{
+    height: 2.25rem;
+    /* padding: 0.75em 1em; */
+    padding-top: 0.5rem;
+    font-size: 0.75rem;
   }
 }
 
 @media only screen and (max-width: 460px) {
+  #bio-container {
+    padding-left: 0.5rem;
+  }
   .body-full .body-top .technologies h3 {
     font-size: 1.25rem;
   }
@@ -378,6 +440,103 @@ nav .fas {
   }
   .devicon-board .box i{
     font-size: 1.5rem;
+  }
+  #hero .hero-text {
+    padding-left: 4rem;
+  }
+  .portfolio .portfolio-card .info-layer {
+    padding: 0 1rem 0 2rem;
+  }
+  .portfolio .portfolio-card .info-layer .date-info {
+    padding-bottom: 0;
+    font-size: 0.75rem;
+  }
+  .portfolio .portfolio-card .info-layer ul {
+    font-size: 0.75rem;
+  }
+  .portfolio .portfolio-card .info-layer ul li {
+    margin-block-end: 0.25rem;
+    font-size: 0.875rem;
+  }
+  .portfolio .portfolio-card {
+    width: 24rem;
+    min-width: 24rem;
+    max-width: 24rem;
+    height: 602px;
+  }
+  .info-layer .devicon-info-board {
+    padding-bottom: 0.375rem;
+    padding-right: 0;
+  }
+  .info-layer .devicon-info-board .info-box i {
+    font-size: 1.625em;
+  }
+  .portfolio-card .info-layer .project-links {
+    margin-bottom: 1.5rem;
+    width: 88%;
+  }
+  .portfolio-card .info-layer .project-links .btn{
+    height: 2.25rem;
+    padding-top: 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  #hero .hero-text {
+    padding-left: 2rem;
+  }
+  .portfolio .portfolio-card {
+    width: 22rem;
+    min-width: 22rem;
+    max-width: 22rem;
+    height: 552px;
+  }
+  .portfolio .portfolio-card .info-layer ul li {
+    margin-block-end: 0.25rem;
+    font-size: 0.75rem;
+  }
+  .info-layer .devicon-info-board .info-box {
+    width: 2rem;
+    min-width: 2rem;
+    max-width: 2rem;
+    height: 2rem;
+  }
+  .portfolio-card .info-layer .project-links {
+    margin-bottom: 1.5rem;
+    width: 78%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #hero .hero-text {
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #hero .hero-text {
+    padding-left: 1.5rem;
+  }
+  #hero .hero-text .hero-text-bottom h1 {
+    font-size: 0.875rem;
+  }
+  #hero .hero-text .hero-text-bottom h2 {
+    font-size: 2.75rem;
+  }
+  .portfolio .portfolio-card {
+    width: 21rem;
+    min-width: 21rem;
+    max-width: 21rem;
+    height: 527px;
+    margin: 1rem 1rem
+  }
+  .info-layer .devicon-info-board {
+    padding-bottom: 0.5rem;
+  }
+  .portfolio-card .info-layer .project-links {
+    margin-bottom: 0.75rem;
+    width: 72%;
   }
 }
 
@@ -637,26 +796,38 @@ body header nav h1 a:hover {
 /* ================================================= */
 
 #hero {
-  height: calc(100vh - 3.75rem)
+  height: calc(100vh - 3.75rem);
 }
 
 .hero-text {
-  height: 10%;
-  display: block;
-  padding-top: 24rem;
+  height: 7rem;
+  width: 100%;
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  padding-top: 396px;
   padding-right: 5rem;
 }
 
 .hero-text h1 {
+  display: block;
+  width: 100%;
   font-family: "PPNeueMontreal-Medium";
   font-weight: --fw-bold;
 }
 
+.hero-text-bottom {
+  padding-top: 1.25rem;
+  padding-left: 8rem;
+}
+
+.hero-text-top, .hero-text-bottom {
+  display: block;
+  width: 100%;
+}
+
 .hero-text h2 {
-  margin-top: 1.25rem;
   color: var(--button-text);
-  margin-left: 8rem;
 }
 
 .arrows-body {
@@ -664,7 +835,7 @@ body header nav h1 a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 24rem;
+  padding-top: 23rem;
 }
 
 .arrow {
@@ -926,7 +1097,7 @@ body header nav h1 a:hover {
   border-radius: var(--default-border-radius);
 }
 
-.info-layer .info-box i {
+.devicon-info-board .info-box i {
   display: block;
   padding-top: 12px;
   font-size: 2rem;
@@ -986,7 +1157,6 @@ article li {
   align-items: center;
 }
 
-
 .experience-item {
   display: flex;
   flex-direction: row;
@@ -1000,7 +1170,7 @@ article li {
 }
 
 .experience-text-layer {
-  width: 70%;
+  width: 80%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -1023,43 +1193,17 @@ article li {
 
 .experience-img-layer {
   display: flex;
-  align-items: flex-start;
-  width: 30%;
-  padding: 5%;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  /* padding: 5%; */
 } 
 
 .experience-img {
   width: 100%;
   height: auto;
+  padding-left: 1rem;
 }
-
-/* #ga-item {
-  width: 65%;
-  height: 70%;
-  margin-right: 20%;
-}
-
-#ons-item {
-  margin-left: 15%;
-}
-
-#tha-item {
-  margin-left: 7%;
-} */
-
-/* #ons-item #ons-layer {
-  width: 70%;
-  height: auto;
-} */
-
-/* #ons-img {
-  justify-content: flex-start;
-  width: 75%;
-  height: auto;
-} */
-
-
-
 
 /* ================================================= */
 /* Interests */
