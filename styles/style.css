@@ -190,14 +190,30 @@ Primary use: Multipurpose Template
 
 @media only screen and (max-width: 1595px) {
   .row .experience {
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
   .row .experience .experience-item {
-    flex-direction: column-reverse;
+    flex-direction: row;
+    width: 90%;
   }
-  
+  .row .experience .experience-item .experience-img-layer {
+    width: 20%;
+  }
+  .row .experience .experience-item .experience-text-layer {
+    width: 80%;
+  }
+  .row .experience .experience-item .experience-text-layer h1 {
+    padding-bottom: 1rem;
+  }
+  .row .experience .experience-item .experience-text-layer h3 {
+    padding-bottom: 1rem;
+  }
+  .container #experience-head-title {
+    margin-left: 0;
+  }
 }
-
 
 @media only screen and (max-width: 1365px) {
   .body-top .about-me-text {
@@ -209,6 +225,14 @@ Primary use: Multipurpose Template
   }
   #work-container .portfolio {
     justify-content: left;
+  }
+  .row .experience {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .row .experience .experience-item {
+    flex-direction: row;
+    width: 95%;
   }
 }
 
@@ -230,6 +254,38 @@ Primary use: Multipurpose Template
   }
   #work-container .portfolio {
     justify-content: center;
+  }
+  .row .experience .experience-item .experience-img-layer {
+    width: 25%;
+  }
+  .row .experience .experience-item .experience-text-layer {
+    width: 75%;
+  }
+  .row .int-row .interests {
+    flex-direction: column;
+  }
+  .row .int-row .interests .interest-item {
+    padding: 1rem;
+  }
+  .row #contact-title {
+    width: 20%;
+    height: auto;
+    padding-top: 1.5%;
+  }
+  .contact-img {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    padding-right: 0;
+    margin-left: 10rem;
+  }
+  .contact-img .profile-img {
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid var(--primary-text);
+    border-radius: 50%;
   }
 }
 
@@ -332,6 +388,39 @@ nav .fas {
     width: 100%;
     margin: 0;
   }
+  #experience-container {
+    padding: 0 1rem;
+  }
+  .row .experience .experience-item {
+    width: 95%;
+  }
+  .row .experience .experience-item .experience-text-layer {
+    font-size: 1rem;
+  }
+  .row .experience .experience-item .experience-text-layer h1 {
+    font-size: 1.5rem;
+  }
+  .row .experience .experience-item .experience-text-layer h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 750px)  {
+  .row .experience .experience-item .experience-text-layer {
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .row .experience .experience-item .experience-img-layer {
+    width: 30%;
+  }
+  .row .experience .experience-item .experience-text-layer {
+    width: 70%;
+  }
+  .row .experience .experience-item .experience-text-layer {
+    font-size: 0.75rem;
+  }
 }
 
 @media only screen and (max-width: 570px) {
@@ -343,6 +432,9 @@ nav .fas {
   #hero .hero-text .hero-text-bottom {
     display: flex;
     padding-left: 0;
+  }
+  .row .int-row .interests .interest-item {
+    font-size: 0.875rem;
   }
 }
 
@@ -390,7 +482,12 @@ nav .fas {
   .info-layer .devicon-info-board .info-box i {
     font-size: 1.75em;
   }
-  
+  .row .experience .experience-item .experience-img-layer {
+    width: 35%;
+  }
+  .row .experience .experience-item .experience-text-layer {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -411,9 +508,22 @@ nav .fas {
   }
   .portfolio-card .info-layer .project-links .btn{
     height: 2.25rem;
-    /* padding: 0.75em 1em; */
     padding-top: 0.5rem;
     font-size: 0.75rem;
+  }
+  .row .experience .experience-item{
+    flex-direction: column-reverse;
+  }
+  .row .experience .experience-item .experience-img-layer {
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding-top: 0.5rem;
+    padding-left: 5.5rem;
+    padding-bottom: 1rem;
+  }
+  .row .experience .experience-item .experience-text-layer {
+    width: 100%;
   }
 }
 
@@ -478,6 +588,9 @@ nav .fas {
   .portfolio-card .info-layer .project-links .btn{
     height: 2.25rem;
     padding-top: 0.5rem;
+    font-size: 0.75rem;
+  }
+  .row .int-row .interests .interest-item {
     font-size: 0.75rem;
   }
 }
@@ -1003,14 +1116,13 @@ body header nav h1 a:hover {
   width: 83.33333333%;
 }
 
-.row>* {
-  flex-shrink: 0;
+/* .row>* {
   width: 100%;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
   margin-top: var(--bs-gutter-y);
-}
+} */
 
 .row {
   --bs-gutter-x: 1.5rem;
@@ -1196,7 +1308,6 @@ article li {
   align-items: center;
   justify-content: center;
   width: 20%;
-  /* padding: 5%; */
 } 
 
 .experience-img {
@@ -1222,7 +1333,6 @@ article li {
   display: flex;
   flex-direction: row;
   background: var(--switch-bg);
-  /* border: 4px solid var(--primary-text); */
   border-radius: var(--default-border-radius);
   filter: drop-shadow(7px 7px 7px rgba(0,0,0,0.5));
   padding: 2% 0% 2% 2%;
@@ -1249,14 +1359,6 @@ article li {
   fill: var(--primary-text);
 }
 
-/* .interest-layer i {
-  display: var(--fa-display, inline-block);
-  font-size: 4em;
-  font-weight: var(--fw-bold);
-  margin-bottom: 2rem;
-  color: var(--primary-text);
-} */
-
 /* ================================================= */
 /* Footer */
 /* ================================================= */
@@ -1268,16 +1370,8 @@ article li {
 #contact-head-title {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   margin-bottom: 6rem;
-}
-
-.profile-img {
-  width: 8rem;
-  height: 8rem;
-  border: 2px solid var(--primary-text);
-  /* box-shadow: var(--bs); */
-  border-radius: 50%;
-  
 }
 
 #contact-title {
@@ -1291,6 +1385,13 @@ article li {
   height: auto;
   display: flex;
   justify-content: flex-start;
+}
+
+.profile-img {
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid var(--primary-text);
+  border-radius: 50%;
 }
 
 .contact-links {
