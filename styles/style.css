@@ -1099,6 +1099,8 @@ body header nav h1 a:hover {
 .mt-3 {
   color: var(--primary-text) ;
   margin-top: 1rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .hs-title-5 {
@@ -1116,22 +1118,14 @@ body header nav h1 a:hover {
   width: 83.33333333%;
 }
 
-/* .row>* {
-  width: 100%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
-  margin-top: var(--bs-gutter-y);
-} */
-
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-.5 * var(--bs-gutter-x));
-  margin-left: calc(-.5 * var(--bs-gutter-x));
+  /* margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x)); */
 }
 
 .d-block {
@@ -1175,12 +1169,10 @@ body header nav h1 a:hover {
   font-family: 'PPNeueMontreal-Italic';
   font-weight: var(--fw-bold);
   padding-bottom: 1%;
-  /* align-self: self-start; */
 }
 
 .info-layer {
   display: flex;
-  /* align-items: flex-end; */
   height: 100%;
   padding: 1rem 1rem 0 2rem;
   flex-direction: column;
