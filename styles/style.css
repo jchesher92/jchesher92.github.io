@@ -517,6 +517,7 @@ nav .fas {
   }
   .row .experience .experience-item{
     flex-direction: column-reverse;
+    margin-bottom: 1rem;
   }
   .row .experience .experience-item .experience-img-layer {
     justify-content: center;
