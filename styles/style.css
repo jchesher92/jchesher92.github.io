@@ -419,7 +419,8 @@ nav .fas {
     width: 70%;
   }
   .row .experience .experience-item .experience-text-layer {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.6;
   }
 }
 
