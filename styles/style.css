@@ -529,10 +529,11 @@ nav .fas {
 
 @media only screen and (max-width: 460px) {
   #bio-container {
-    padding-left: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .body-full .body-top .technologies h3 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
   .technologies .devicon-board {
     width: 340px;
@@ -859,7 +860,6 @@ nav ul li a {
 
 nav ul li a:hover {
   color: var(--button-text);
-  /* transition: var(--default-transition); */
 }
 
 #theme-switcher {
@@ -1285,7 +1285,7 @@ article li {
   font-size: 1.125rem;
 }
 
-.experience-text-layer h1 {
+.experience-text-layer h2 {
   font-weight: var(--fw-bold);
   padding-bottom: 3%;
   font-size: 2rem;
