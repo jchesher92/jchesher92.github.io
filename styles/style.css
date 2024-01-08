@@ -2,24 +2,24 @@
 [Master Stylesheet]
 
 Project: Portfolio
-Last change: 13 December 2023
-Primary use: Multipurpose Template  
+Last change: 08 January 2024
+Primary use: Portfolio Template  
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
 [Table of contents]
 
 1. Fonts.
-2. Custom properties.
-3. Styles for different screen sizes.
-4. General styles.
+2. Custom Properties.
+3. Styles for Different Screen Sizes.
+4. General Styles.
 5. Buttons.
 6. Typography.
 7. Buttons.
 8. Header & Nav Bar
-    8.1. Change background on mouse-over.
+    8.1. Change Background on Mouse-Hover.
 9. Hero
-10. About me styles.
+10. About Me Styles.
 11. Recent Work.
 12. Experience.
 13. Interests.
@@ -674,7 +674,6 @@ body {
   font-size: var(--fs-body);
   font-family: var(--primary-font);
   line-height: 1.6;
-  margin-top: 0px; /* Add a top margin to avoid content overlay */
   justify-content: center;
   background-color: var(--page-bg);
   color: var(--primary-text);
