@@ -874,7 +874,7 @@ nav ul li a:hover {
 #theme-switcher {
   background-color: var(--switch-bg);
   border-radius: 2.375rem;
-  height: 1.875rem;
+  height: 2rem;
   display: flex;
   align-items: center;
   gap: 0.95rem;
