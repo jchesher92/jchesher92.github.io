@@ -634,8 +634,12 @@ nav .fas {
 
 @media only screen and (max-width: 400px) {
   #hero .hero-text {
+    padding-top: 20rem;
     padding-left: 1rem;
   }
+  /* #hero .arrows-body {
+    padding-top: 10rem;
+  } */
 }
 
 @media only screen and (max-width: 380px) {
