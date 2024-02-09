@@ -9,13 +9,3 @@ navToggle.addEventListener("click", () => {
     icon.classList.toggle('hidden');
   });
 });
-
-// window.addEventListener("resize", () => {
-//   if (document.body.clientWidth > 830) {
-//     nav.classList.remove('open');
-//     navIcon.forEach(icon => {
-//       icon.classList.add('hidden')
-//     });
-//     hamburger.classList.remove('hidden')
-//   }
-// });
