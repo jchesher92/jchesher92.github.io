@@ -410,6 +410,23 @@ nav .fas {
   .row .experience .experience-item .experience-text-layer h4 {
     font-size: 1.25rem;
   }
+  .int-row .interests {
+    flex-direction: column;
+  }
+  .int-row .interests .interest-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #dev-item {
+    padding-top: 1rem;
+  }
+  #music-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #football-item {
+    padding-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width: 750px)  {
@@ -1381,6 +1398,10 @@ article li {
 .int-row {
   display: flex;
   justify-content: center;
+}
+
+#interests-title {
+  padding-left: 4rem;
 }
 
 .interests {
