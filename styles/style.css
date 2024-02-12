@@ -102,7 +102,7 @@ Primary use: Portfolio Template
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --fs-h1: 3rem;
+  --fs-h1: 4.25rem;
   --fs-h2: 1.5rem;
   --fs-h3: 1.25rem;
   --fs-h4: 1.125rem;
@@ -305,6 +305,13 @@ nav .fas {
 }
 .hidden {
   display: none;
+}
+
+@media all and (max-width: 908px) {
+  .hero-text .hero-text-bottom h4 {
+    padding-left: 8rem;
+    padding-right: 0;
+  }
 }
 
 @media all and (max-width: 830px) {
@@ -512,7 +519,7 @@ nav .fas {
 
 @media only screen and (max-width: 500px) {
   .hero-text .hero-text-top h1 {
-    font-size: 2.5rem;
+    font-size: 4.25rem;
   }
   .hero-text .hero-text-bottom h4 {
     font-size: 1.5rem;
@@ -628,7 +635,7 @@ nav .fas {
 
 @media only screen and (max-width: 428px) {
   .hero-text .hero-text-top h1 {
-    font-size: 2.25rem;
+    font-size: 4.25rem;
     padding-left: 2rem;
   }
   .hero-text .hero-text-bottom h4 {
@@ -675,11 +682,11 @@ nav .fas {
 
 @media only screen and (max-width: 380px) {
   .hero-text .hero-text-top h1 {
-    padding-left: 1.25rem;
-    font-size: 2.25rem;
+    padding-left: 1rem;
+    font-size: 4.25rem;
   }
   .hero-text .hero-text-bottom h4 {
-    padding-left: 1.25rem;
+    padding-left: 1rem;
   }
   .portfolio .portfolio-card {
     width: 21rem;
@@ -1006,6 +1013,7 @@ body header nav h1 a:hover {
 .hero-text h4 {
   color: var(--button-text);
   font-size: 2rem;
+  padding-right: 10.75rem;
 }
 
 .arrows-body {
