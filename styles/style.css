@@ -429,6 +429,7 @@ nav .fas {
 
 @media only screen and (max-width: 650px) {
   #hero .hero-text{
+    padding-top: 10rem;
     padding-right: 0;
   }
   .hero-text .hero-text-top h1 {
