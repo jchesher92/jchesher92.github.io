@@ -699,12 +699,18 @@ nav .fas {
 }
 
 @media only screen and (max-width: 380px) {
+  #hero .hero-text{
+    padding-top: 9rem;
+  }
   .hero-text .hero-text-top h1 {
     padding-left: 1rem;
     font-size: 4.25rem;
   }
   .hero-text .hero-text-bottom h4 {
-    padding-left: 1rem;
+    padding-left: 1.25rem;
+  }
+  #hero .arrows-body {
+    padding-top: 16rem;
   }
   .portfolio .portfolio-card {
     width: 21rem;
