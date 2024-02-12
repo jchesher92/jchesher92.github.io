@@ -1,5 +1,3 @@
-// import Skills from "./components/Skills"
-
 // Switch function
 const switchTheme = () => {
   // Get root element and data-theme value
@@ -15,10 +13,6 @@ const switchTheme = () => {
   // Set new local storage item
   localStorage.setItem('theme', newTheme)
 }
-
-// document.querySelector('#theme-switcher').addEventListener('click', switchTheme)
-// document.querySelector('#theme__item').addEventListener('click', switchTheme)
-
 
 if (window.matchMedia('(max-width: 830px)').matches) {
   // Add event listener for the theme colour switcher
