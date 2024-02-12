@@ -105,7 +105,7 @@ Primary use: Portfolio Template
   --fs-h1: 3rem;
   --fs-h2: 1.5rem;
   --fs-h3: 1.25rem;
-  --fs-h3: 1.125rem;
+  --fs-h4: 1.125rem;
   --fs-body: 1rem;
 
   --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
@@ -406,12 +406,30 @@ nav .fas {
 }
 
 @media only screen and (max-width: 750px)  {
+  #hero .hero-text{
+    text-align: left;
+  }
+  .hero-text .hero-text-top h1 {
+    padding-left: 5rem;
+  }
+  .hero-text .hero-text-bottom h2 {
+    padding-left: 5rem;
+  }
   .row .experience .experience-item .experience-text-layer {
     font-size: 0.875rem;
   }
 }
 
 @media only screen and (max-width: 650px) {
+  #hero .hero-text{
+    padding-right: 0;
+  }
+  .hero-text .hero-text-top h1 {
+    padding-left: 4rem;
+  }
+  .hero-text .hero-text-bottom h2 {
+    padding-left: 4rem;
+  }
   .row .experience .experience-item .experience-img-layer {
     width: 30%;
   }
@@ -425,14 +443,12 @@ nav .fas {
 }
 
 @media only screen and (max-width: 570px) {
-  #hero .hero-text {
-    padding-right: 0rem;
-    padding-left: 5.5rem;
-    text-align: left;
+
+  .hero-text .hero-text-top h1 {
+    padding-left: 3rem;
   }
-  #hero .hero-text .hero-text-bottom {
-    display: flex;
-    padding-left: 0;
+  .hero-text .hero-text-bottom h2 {
+    padding-left: 3rem;
   }
   .row .int-row .interests .interest-item {
     font-size: 0.875rem;
@@ -495,6 +511,12 @@ nav .fas {
 }
 
 @media only screen and (max-width: 500px) {
+  .hero-text .hero-text-top h1 {
+    font-size: 2.5rem;
+  }
+  .hero-text .hero-text-bottom h2 {
+    font-size: 1.5rem;
+  }
   .portfolio .portfolio-card {
     width: 26rem;
     min-width: 26rem;
@@ -535,8 +557,11 @@ nav .fas {
 }
 
 @media only screen and (max-width: 460px) {
-  #hero .hero-text {
-    padding-left: 4rem;
+  .hero-text .hero-text-top h1 {
+    padding-left: 2.5rem;
+  }
+  .hero-text .hero-text-bottom h2 {
+    padding-left: 2.5rem;
   }
   #bio-container {
     padding-left: 1rem;
@@ -602,7 +627,11 @@ nav .fas {
 }
 
 @media only screen and (max-width: 428px) {
-  #hero .hero-text {
+  .hero-text .hero-text-top h1 {
+    font-size: 2.25rem;
+    padding-left: 2rem;
+  }
+  .hero-text .hero-text-bottom h2 {
     padding-left: 2rem;
   }
   .portfolio .portfolio-card {
@@ -638,7 +667,6 @@ nav .fas {
   }
   #hero .hero-text {
     padding-top: 12rem;
-    padding-left: 1rem;
   }
   #hero .arrows-body {
     padding-top: 13rem;
@@ -646,14 +674,12 @@ nav .fas {
 }
 
 @media only screen and (max-width: 380px) {
-  #hero .hero-text {
-    padding-left: 1.5rem;
+  .hero-text .hero-text-top h1 {
+    padding-left: 1.25rem;
+    font-size: 2.25rem;
   }
-  #hero .hero-text .hero-text-bottom h1 {
-    font-size: 0.875rem;
-  }
-  #hero .hero-text .hero-text-bottom h2 {
-    font-size: 2.75rem;
+  .hero-text .hero-text-bottom h2 {
+    padding-left: 1.25rem;
   }
   .portfolio .portfolio-card {
     width: 21rem;
