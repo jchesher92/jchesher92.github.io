@@ -546,7 +546,7 @@ nav .fas {
     width: 26rem;
     min-width: 26rem;
     max-width: 26rem;
-    height: 652px;
+    height: 668px;
   }
   .info-layer .devicon-info-board {
     padding-bottom: 0.625rem;
@@ -555,8 +555,11 @@ nav .fas {
     font-size: 1.625em;
   }
   .portfolio-card .info-layer .project-links {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
   }
+  /* #gourmet-links {
+
+  } */
   .portfolio-card .info-layer .project-links .btn{
     height: 2.25rem;
     padding-top: 0.5rem;
