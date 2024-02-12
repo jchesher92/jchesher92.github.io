@@ -819,6 +819,16 @@ h4 {
   font-size: var(--fs-h4);
 }
 
+.hs-title-5 {
+  font-family: 'PPNeueMontreal-Medium';
+  margin-bottom: 100px;
+  margin-top: 0;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 0.92;
+  letter-spacing: normal;
+}
+
 .section__subtitle--work {
   color: var(--clr-accent);
   font-weight: var(--fw-bold);
@@ -1156,16 +1166,6 @@ body header nav h1 a:hover {
   margin-top: 1rem;
   margin-left: 0;
   margin-right: 0;
-}
-
-.hs-title-5 {
-  font-family: 'PPNeueMontreal-Medium';
-  margin-bottom: 100px;
-  margin-top: 0;
-  font-size: 5rem;
-  font-weight: 500;
-  line-height: 0.92;
-  letter-spacing: normal;
 }
 
 .col-10 {
