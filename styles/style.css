@@ -283,6 +283,7 @@ Primary use: Portfolio Template
     margin-left: 10rem;
   }
   .contact-img .profile-img {
+    margin-top: 0.5rem;
     width: 6rem;
     height: 6rem;
     border: 2px solid var(--primary-text);
