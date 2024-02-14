@@ -789,7 +789,7 @@ body::before {
 }
 
 .container {
-  padding: 0 30px;
+  padding: 0 2rem;
 }
 
 .section-caption {
@@ -804,11 +804,11 @@ body::before {
   margin-bottom: 7rem;
 }
 
-#recent-work, #experience, #interest {
-  padding-block-start: 16px;
+#about, #recent-work, #experience, #interest {
+  padding-block-start: 1rem;
 }
 
-.mt-3 {
+.caption-line {
   color: var(--primary-text) ;
   margin-top: 1rem;
   margin-left: 0;
@@ -821,6 +821,16 @@ body::before {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
+}
+
+.hs-title {
+  font-family: 'PPNeueMontreal-Medium';
+  margin-bottom: 4rem;
+  margin-top: 0;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 0.92;
+  letter-spacing: normal;
 }
 
 .d-block {
@@ -894,16 +904,6 @@ h3 {
 
 h4 {
   font-size: var(--fs-h4);
-}
-
-.hs-title-5 {
-  font-family: 'PPNeueMontreal-Medium';
-  margin-bottom: 100px;
-  margin-top: 0;
-  font-size: 4rem;
-  font-weight: 500;
-  line-height: 0.92;
-  letter-spacing: normal;
 }
 
 .section__subtitle--work {
@@ -1138,8 +1138,8 @@ body header nav h1 a:hover {
 /* About Me Styles */
 /* ================================================= */
 
-.bio {
-  padding-block-start: 96px;
+#about {
+  padding-block-start: 6.5rem;
   padding-block-end: 96px;
 }
 
