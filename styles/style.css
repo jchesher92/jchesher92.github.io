@@ -507,7 +507,7 @@ nav .fas {
   .technologies .devicon-board .box span {
     font-size: 10px;
   }
-  .col-10 .hs-title-5 .d-block {
+  .subheading-row .hs-title{
     font-size: 3.75rem;
   }
   .portfolio .portfolio-card {
@@ -833,11 +833,7 @@ body::before {
   letter-spacing: normal;
 }
 
-.d-block {
-  display: block;
-}
-
-.col-10 {
+.subheading-row {
   flex: 0 0 auto;
   width: 83%;
 }
@@ -1353,7 +1349,6 @@ article li {
 }
 
 #experience-head-title {
-  margin-left: 4%;
   display: flex;
 }
 
@@ -1435,7 +1430,7 @@ article li {
   border-radius: var(--default-border-radius);
   filter: drop-shadow(7px 7px 7px rgba(0,0,0,0.5));
   padding: 2% 0% 2% 2%;
-  width: 90%;
+  width: 100%;
   flex-wrap: wrap;
 }
 
@@ -1462,10 +1457,6 @@ article li {
 /* Footer */
 /* ================================================= */
 
-#footer-title {
-  margin-left: 4%;
-} 
-
 #contact-head-title {
   display: flex;
   flex-direction: row;
@@ -1476,7 +1467,6 @@ article li {
 #contact-title {
   width: 26%;
   height: auto;
-  padding-top: 1.5%;
 }
 
 .contact-img {
@@ -1493,14 +1483,9 @@ article li {
   border-radius: 50%;
 }
 
-.contact-links {
-  padding-bottom: 20rem;
-  background: var(--switch-bg);
-  padding: 30px;
-}
-
 footer ul {
-  padding-top: 1rem;
+  background: var(--switch-bg);
+  padding: 4rem 3.5rem 3rem 3.5rem;
   width: 100%;
   display: flex;
   justify-content: center;
