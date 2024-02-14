@@ -278,7 +278,7 @@ Primary use: Portfolio Template
     height: auto;
     display: flex;
     justify-content: flex-start;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     padding-right: 0;
     margin-left: 10rem;
   }
@@ -1467,6 +1467,7 @@ article li {
 #contact-title {
   width: 26%;
   height: auto;
+  padding-top: 2rem;
 }
 
 .contact-img {
@@ -1474,6 +1475,7 @@ article li {
   height: auto;
   display: flex;
   justify-content: flex-start;
+  ;
 }
 
 .profile-img {
