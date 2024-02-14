@@ -1450,6 +1450,7 @@ article li {
 }
 
 .interest-item h6 {
+  font-size: var(--fs-h6);
   padding-bottom: 1rem;
 }
 
