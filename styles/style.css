@@ -801,7 +801,35 @@ body::before {
 }
 
 .page-caption {
-  margin-bottom: 100px;
+  margin-bottom: 7rem;
+}
+
+#recent-work, #experience, #interest {
+  padding-block-start: 16px;
+}
+
+.mt-3 {
+  color: var(--primary-text) ;
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+}
+
+.d-block {
+  display: block;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83%;
 }
 
 :focus {
@@ -1142,7 +1170,7 @@ body header nav h1 a:hover {
   background-color: var(--background);
 }
 
-.p1 {
+#p1, #p2 {
   padding-bottom: 1.5rem;
 }
 
@@ -1205,34 +1233,6 @@ body header nav h1 a:hover {
   width: 100%;
   height: auto;
   padding-block-end: 96px;
-}
-
-#recent-work, #experience, #interest {
-  padding-block-start: 16px;
-}
-
-.mt-3 {
-  color: var(--primary-text) ;
-  margin-top: 1rem;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.col-10 {
-  flex: 0 0 auto;
-  width: 83.33333333%;
-}
-
-.row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
-}
-
-.d-block {
-  display: block;
 }
 
 .portfolio {
@@ -1419,13 +1419,13 @@ article li {
   padding-block-end: 5rem;
 }
 
+#interest-head-title {
+  height: 8rem;
+}
+
 .int-row {
   display: flex;
   justify-content: center;
-}
-
-#interests-title {
-  padding-left: 4rem;
 }
 
 .interests {
