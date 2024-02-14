@@ -1439,6 +1439,10 @@ article li {
   padding-right: 2%;
 }
 
+.interest-item h4 {
+  padding-bottom: 1rem;
+}
+
 .interest-img-layer {
   display: flex;
   justify-content: center;
@@ -1475,7 +1479,6 @@ article li {
   height: auto;
   display: flex;
   justify-content: flex-start;
-  ;
 }
 
 .profile-img {
