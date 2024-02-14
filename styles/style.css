@@ -103,9 +103,11 @@ Primary use: Portfolio Template
   --fw-bold: 900;
 
   --fs-h1: 4.25rem;
-  --fs-h2: 1.5rem;
-  --fs-h3: 1.25rem;
-  --fs-h4: 1.125rem;
+  --fs-h2: 4rem;
+  --fs-h3: 2rem;
+  --fs-h4: 1.75rem;
+  --fs-h5: 1.5rem;
+  --fs-h6: 1.25rem;
   --fs-body: 1rem;
 
   --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
@@ -902,6 +904,14 @@ h4 {
   font-size: var(--fs-h4);
 }
 
+h6 {
+  font-family: "PPNeueMontreal-Bold";
+  font-weight: --fw-bold;
+  line-height: 1;
+  margin: 0;
+  font-size: var(--fs-h4);
+}
+
 .section__subtitle--work {
   color: var(--clr-accent);
   font-weight: var(--fw-bold);
@@ -1228,7 +1238,7 @@ body header nav h1 a:hover {
   justify-content: center;
   width: 100%;
   height: auto;
-  padding-block-end: 96px;
+  padding-block-end: 5rem;
 }
 
 .portfolio {
@@ -1345,7 +1355,7 @@ article li {
 /* ================================================= */
 
 .my-experience {
-  padding-block-end: 6rem;
+  padding-block-end: 5rem;
 }
 
 #experience-head-title {
@@ -1439,7 +1449,7 @@ article li {
   padding-right: 2%;
 }
 
-.interest-item h4 {
+.interest-item h6 {
   padding-bottom: 1rem;
 }
 
