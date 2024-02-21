@@ -952,22 +952,13 @@ header .container {
 }
 
 #logo {
-  color: var(--primary-text);
-  fill: var(--primary-text);
+  margin-left: 0.375rem;
+  margin-top: 0.375rem;
 }
 
-#id3 tspan {
+#text111, #rect515 {
   color: var(--primary-text);
   fill: var(--primary-text);
-  width: 400%; 
-  height: auto;
-}
-
-#id4 path {
-  color: var(--primary-text);
-  fill: var(--primary-text);
-  width: 400%; 
-  height: auto;
 }
 
 .lists-and-toggles {
