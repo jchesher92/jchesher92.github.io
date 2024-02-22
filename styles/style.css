@@ -448,15 +448,13 @@ nav .fas {
 }
 
 @media only screen and (max-width: 650px) {
-  #hero .hero-text{
+  body #hero h1 {
     padding-top: 10rem;
-    padding-right: 0;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
-  .hero-text .hero-text-top h1 {
-    padding-left: 4rem;
-  }
-  .hero-text .hero-text-bottom h4 {
-    padding-left: 4rem;
+  body #hero h3 {
+    padding-right: 4rem;
   }
   .row .experience .experience-item .experience-img-layer {
     width: 30%;
@@ -961,20 +959,16 @@ header .container {
   fill: var(--primary-text);
 }
 
-.lists-and-toggles {
-  display: flex;
-  align-items: center;
-  padding-right: 1rem;
-  padding-top: 2px;
-}
-
   nav {
   justify-content: space-between;
   transition: var(--default-transition);
 }
 
 nav ul {
-  padding: 0.875rem 0.75rem;
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+  padding-top: 1rem;
 }
 
 nav ul li {
@@ -1050,37 +1044,17 @@ body header nav h1 a:hover {
   height: 52rem;
 }
 
-.hero-text {
-  height: 7rem;
-  width: 100%;
-  display: flex;
+#hero h1 {
   text-align: center;
-  flex-direction: column;
-  padding-top: 396px;
-  padding-right: 5rem;
-}
-
-.hero-text h1 {
-  display: block;
-  width: 100%;
   font-family: "PPNeueMontreal-Medium";
   font-weight: --fw-bold;
-  padding-left: 12.5rem;
+  padding-top: 22.875rem;
 }
 
-.hero-text-bottom {
-  padding-top: 1.25rem;
-}
-
-.hero-text-top, .hero-text-bottom {
-  display: block;
-  width: 100%;
-}
-
-.hero-text h4 {
+#hero h3 {
+  text-align: center;
   color: var(--button-text);
-  font-size: 2rem;
-  padding-right: 10.75rem;
+  padding-right: 23.5rem;
 }
 
 .arrows-body {
@@ -1088,7 +1062,7 @@ body header nav h1 a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 23rem;
+  padding-top: 20rem;
 }
 
 .arrow {
