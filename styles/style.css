@@ -293,9 +293,6 @@ Primary use: Portfolio Template
   }
 }
 
-nav .fas {
-  display: none;
-}
 .nav-toggle {
   display: none;
   cursor: pointer;
@@ -304,17 +301,10 @@ nav .fas {
   display: none;
 }
 .open {
-  height: 46vh;
+  height: 38vh;
 }
 .hidden {
   display: none;
-}
-
-@media all and (max-width: 908px) {
-  .hero-text .hero-text-bottom h4 {
-    padding-left: 8rem;
-    padding-right: 0;
-  }
 }
 
 @media all and (max-width: 830px) {
@@ -334,17 +324,12 @@ nav .fas {
     width: 100%;
     overflow: hidden;
     transition: 250ms height ease-in-out;
-    padding: 0;
+    padding-top: 0.25rem;
   }
-  header .lists-and-toggles {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-  }
+  
   header nav ul {
-    width: 100%;
-    padding: 0 1rem;
+    flex-direction: column;
+    
   }
   body header.sticky nav ul {
     padding: 0 1rem;
@@ -361,6 +346,7 @@ nav .fas {
     border-color: var(--mob-nav-border);
     padding: 0;
     margin: 0;
+    width: 98%;
     font-family: 'PPNeueMontreal-Book'; 
   }
   header nav ul li:hover {
@@ -380,9 +366,7 @@ nav .fas {
     margin: 0.5rem 0 0 0.625rem;
     width: 4.25rem;
   }
-  nav .fas {
-    display: block;
-  }
+  
   .nav-toggle {
     display: block;
     position: absolute;
@@ -959,7 +943,7 @@ header .container {
   fill: var(--primary-text);
 }
 
-  nav {
+nav {
   justify-content: space-between;
   transition: var(--default-transition);
 }
