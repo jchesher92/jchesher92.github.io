@@ -301,7 +301,7 @@ Primary use: Portfolio Template
   display: none;
 }
 .open {
-  height: 38vh;
+  height: 18rem;
 }
 .hidden {
   display: none;
@@ -417,15 +417,6 @@ Primary use: Portfolio Template
 }
 
 @media only screen and (max-width: 750px)  {
-  #hero .hero-text{
-    text-align: left;
-  }
-  .hero-text .hero-text-top h1 {
-    padding-left: 5rem;
-  }
-  .hero-text .hero-text-bottom h4 {
-    padding-left: 5rem;
-  }
   .row .experience .experience-item .experience-text-layer {
     font-size: 0.875rem;
   }
@@ -453,13 +444,6 @@ Primary use: Portfolio Template
 }
 
 @media only screen and (max-width: 570px) {
-
-  .hero-text .hero-text-top h1 {
-    padding-left: 3rem;
-  }
-  .hero-text .hero-text-bottom h4 {
-    padding-left: 3rem;
-  }
   .row .int-row .interests .interest-item {
     font-size: 0.875rem;
   }
@@ -527,12 +511,6 @@ Primary use: Portfolio Template
 }
 
 @media only screen and (max-width: 500px) {
-  .hero-text .hero-text-top h1 {
-    font-size: 4.25rem;
-  }
-  .hero-text .hero-text-bottom h4 {
-    font-size: 1.5rem;
-  }
   .portfolio .portfolio-card {
     width: 26rem;
     min-width: 26rem;
@@ -573,12 +551,6 @@ Primary use: Portfolio Template
 }
 
 @media only screen and (max-width: 460px) {
-  .hero-text .hero-text-top h1 {
-    padding-left: 2.5rem;
-  }
-  .hero-text .hero-text-bottom h4 {
-    padding-left: 2.5rem;
-  }
   #bio-container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -646,13 +618,6 @@ Primary use: Portfolio Template
 }
 
 @media only screen and (max-width: 428px) {
-  .hero-text .hero-text-top h1 {
-    font-size: 4.25rem;
-    padding-left: 2rem;
-  }
-  .hero-text .hero-text-bottom h4 {
-    padding-left: 2rem;
-  }
   .portfolio .portfolio-card {
     width: 22rem;
     min-width: 22rem;
@@ -693,28 +658,12 @@ Primary use: Portfolio Template
   body #hero {
     height: 36rem;
   }
-  #hero .hero-text {
-    padding-top: 12rem;
-  }
-  #hero .arrows-body {
-    padding-top: 13rem;
+  body #hero .arrows-body {
+    padding-top: 6rem;
   }
 }
 
 @media only screen and (max-width: 380px) {
-  #hero .hero-text{
-    padding-top: 9rem;
-  }
-  .hero-text .hero-text-top h1 {
-    padding-left: 1rem;
-    font-size: 4.25rem;
-  }
-  .hero-text .hero-text-bottom h4 {
-    padding-left: 1.25rem;
-  }
-  #hero .arrows-body {
-    padding-top: 16rem;
-  }
   .portfolio .portfolio-card {
     width: 21rem;
     min-width: 21rem;
@@ -728,7 +677,6 @@ Primary use: Portfolio Template
     margin-bottom: 1.75rem;
     width: 72%;
   }
-
   .contact-img .profile-img {
     width: 5.5rem;
     height: 5.5rem;
