@@ -868,6 +868,8 @@ header {
 }
 
 header.sticky {
+  border-top: 1px;
+  border-color: var(--primary-text);
   background-color: var(--nav-bg);
   position: fixed;
   filter: drop-shadow(7px 7px 7px rgba(0,0,0,0.05));
