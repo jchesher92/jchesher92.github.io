@@ -868,7 +868,7 @@ header {
 }
 
 header.sticky {
-  border-top: 1px;
+  border-block-start:  1px;
   border-color: var(--primary-text);
   background-color: var(--nav-bg);
   position: fixed;
@@ -1003,7 +1003,7 @@ body header nav h1 a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 20rem;
+  padding-top: 18.75rem;
 }
 
 .arrow {
@@ -1052,22 +1052,22 @@ body header nav h1 a:hover {
 
 #about {
   padding-block-start: 6.5rem;
-  padding-block-end: 96px;
+  padding-block-end: 6rem;
 }
 
-#bio-title {
-  margin-bottom: 2rem;
+#bio-container {
+  padding: 0 4rem;
 }
 
 .about-me h2 {
-  display: block;
   font-family: 'PPNeueMontreal-Medium'; 
+  padding-bottom: 2rem;
 }
 
 .body-top {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  /* flex-direction: row; */
 }
 
 .about-me-text {
@@ -1084,20 +1084,20 @@ body header nav h1 a:hover {
 
 .technologies {
   margin-left: 10%;
-  width: 492px;
-  max-width: 492px;
-  min-width: 340px;
+  width: 35rem;
+  max-width: 35rem;
+  min-width: 22rem;
 }
 
 .technologies h3 {
-  font-family: 'PPNeueMontreal-Thin'; 
-  font-size: 29px;
+  font-family: 'PPNeueMontreal-Thin';
   padding-bottom: 1rem;
 }
 
 .devicon-board {
   display: flex;
   flex-wrap: wrap;
+  width: 38rem;
   min-width: 30.5rem;
 }
 
@@ -1118,7 +1118,7 @@ body header nav h1 a:hover {
 
 .box i {
   display: block;
-  padding-top: 12px;
+  padding-top: 0.75rem;
   font-size: 30px;
 }
 
@@ -1128,8 +1128,8 @@ body header nav h1 a:hover {
   padding-top: 8px;
 }
 
-.btns #about-btn {
-  margin-top: 1.5rem;
+#about-btn {
+  margin-top: 4rem;
 }
 
 /* ================================================= */
