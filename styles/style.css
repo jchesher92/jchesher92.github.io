@@ -218,10 +218,14 @@ Primary use: Portfolio Template
   }
 }
 
-@media only screen and (max-width: 1365px) {
-  .body-top .about-me-text {
-    width: 80%;
+@media only screen and (max-width: 1527px) {
+  .body-top .about-me-text{
+    width: 100%;
+    margin-right: 0;
   }
+}
+
+@media only screen and (max-width: 1365px) {
   .body-top .technologies {
     margin: 0 ;
     padding-top: 1.5rem;
@@ -422,6 +426,10 @@ Primary use: Portfolio Template
   .row .experience .experience-item .experience-text-layer {
     font-size: 0.875rem;
   }
+  body #bio-container{
+    padding: 0 2rem;
+  }
+
 }
 
 @media only screen and (max-width: 650px) {
@@ -442,6 +450,12 @@ Primary use: Portfolio Template
   .row .experience .experience-item .experience-text-layer {
     font-size: 0.875rem;
     line-height: 1.6;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .technologies .devicon-board {
+    width: 34rem;
   }
 }
 
@@ -559,6 +573,9 @@ Primary use: Portfolio Template
   }
   .body-full .body-top .technologies h3 {
     font-size: 19px;
+  }
+  .technologies {
+    width: 33rem;
   }
   .technologies .devicon-board {
     width: 340px;
@@ -766,9 +783,7 @@ body::before {
   font-family: 'PPNeueMontreal-Medium';
   margin-bottom: 4rem;
   margin-top: 0;
-  font-size: 4rem;
-  font-weight: 500;
-  line-height: 0.92;
+  font-weight: var(--fw-reg);
   letter-spacing: normal;
 }
 
@@ -1051,7 +1066,7 @@ body header nav h1 a:hover {
 /* ================================================= */
 
 #about {
-  padding-block-start: 6.5rem;
+  padding-block-start: 6rem;
   padding-block-end: 6rem;
 }
 
@@ -1059,23 +1074,21 @@ body header nav h1 a:hover {
   padding: 0 4rem;
 }
 
-.about-me h2 {
+#bio-container h2 {
   font-family: 'PPNeueMontreal-Medium'; 
-  padding-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .body-top {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row; */
 }
 
 .about-me-text {
+  padding-top: 3rem;
   width: 50%;
-}
-
-.about-me h3 {
-  background-color: var(--background);
+  margin-right: 10%;
+  padding-bottom: 1.5rem;
 }
 
 #p1, #p2 {
@@ -1083,7 +1096,7 @@ body header nav h1 a:hover {
 }
 
 .technologies {
-  margin-left: 10%;
+  
   width: 35rem;
   max-width: 35rem;
   min-width: 22rem;
@@ -1097,7 +1110,7 @@ body header nav h1 a:hover {
 .devicon-board {
   display: flex;
   flex-wrap: wrap;
-  width: 38rem;
+  width: 35.875rem;
   min-width: 30.5rem;
 }
 
@@ -1129,7 +1142,7 @@ body header nav h1 a:hover {
 }
 
 #about-btn {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 
 /* ================================================= */
