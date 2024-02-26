@@ -728,8 +728,11 @@ Primary use: Portfolio Template
     margin-bottom: 1.75rem;
     width: 72%;
   }
+  body #footer-container{
+    padding: 0 1rem;
+  }
   #footer-container #contact-title h2 {
-    padding-right: 1rem;
+    padding-right: 2rem;
   }
 }
 
