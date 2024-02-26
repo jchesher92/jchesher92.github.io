@@ -680,6 +680,12 @@ Primary use: Portfolio Template
   body #hero .arrows-body {
     padding-top: 6rem;
   }
+  body #bio-container {
+    padding: 0 1rem;
+  }
+  .body-top .technologies h3 {
+    font-size: 1.25rem;
+  }
   .body-top .technologies {
     width: 100%;
     min-width: none;
