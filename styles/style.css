@@ -1350,11 +1350,6 @@ article li {
   padding-block-end: 5rem;
 }
 
-/* .int-row {
-  display: flex;
-  justify-content: center;
-} */
-
 .interests {
   display: flex;
   flex-direction: row;
