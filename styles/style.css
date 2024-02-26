@@ -687,8 +687,11 @@ Primary use: Portfolio Template
     font-size: 1.25rem;
   }
   .body-top .technologies {
-    width: 100%;
-    min-width: none;
+    width: 21.5rem;
+    min-width: 21.5rem;
+  }
+  .technologies .devicon-board {
+    width: 19rem;
   }
 }
 
