@@ -451,6 +451,9 @@ Primary use: Portfolio Template
     font-size: 0.875rem;
     line-height: 1.6;
   }
+  #footer-container #contact-title h2 {
+    padding-top: 0;
+  }
 }
 
 @media only screen and (max-width: 630px) {
@@ -634,6 +637,13 @@ Primary use: Portfolio Template
   .row .int-row .interests .interest-item {
     font-size: 0.75rem;
   }
+  #footer-container #contact-title .profile-img {
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 2px solid var(--primary-text);
+    border-radius: 50%;
+    margin-top: 0.5rem;
+  }
 }
 
 @media only screen and (max-width: 428px) {
@@ -671,6 +681,7 @@ Primary use: Portfolio Template
   #zom-layer .project-links {
     margin-top: 6rem;
   }
+  
 }
 
 @media only screen and (max-width: 400px) {
@@ -693,6 +704,9 @@ Primary use: Portfolio Template
   .technologies .devicon-board {
     width: 19rem;
   }
+  #footer-container #contact-title h2 {
+    padding-right: 2rem;
+  }
 }
 
 @media only screen and (max-width: 380px) {
@@ -714,11 +728,8 @@ Primary use: Portfolio Template
     margin-bottom: 1.75rem;
     width: 72%;
   }
-  .contact-img .profile-img {
-    width: 5.5rem;
-    height: 5.5rem;
-    border: 2px solid var(--primary-text);
-    border-radius: 50%;
+  #footer-container #contact-title h2 {
+    padding-right: 1rem;
   }
 }
 
@@ -1400,31 +1411,28 @@ article li {
 /* Footer */
 /* ================================================= */
 
-#contact-head-title {
+#contact-title {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   margin-bottom: 6rem;
+  height: auto;
+  
 }
 
-#contact-title {
-  width: 26%;
-  height: auto;
+#contact-title h2 {
   padding-top: 2rem;
-}
-
-.contact-img {
-  width: 74%;
-  height: auto;
-  display: flex;
-  justify-content: flex-start;
+  padding-right: 4rem;
 }
 
 .profile-img {
+  height: auto;
+  display: flex;
   width: 8rem;
   height: 8rem;
   border: 2px solid var(--primary-text);
   border-radius: 50%;
+  right: 2rem;
 }
 
 footer ul {
