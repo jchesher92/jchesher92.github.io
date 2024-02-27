@@ -264,7 +264,6 @@ Primary use: Portfolio Template
   }
   header .container {
     flex-direction: column;
-    z-index: 2;
     transition: var(--default-transition) 0.5s height ease-in-out;
   }
   header nav {
@@ -820,7 +819,7 @@ header.sticky {
   filter: drop-shadow(7px 7px 7px rgba(0,0,0,0.05));
   width: 100%;
   transition: var(--default-transition);
-  z-index: 1100;
+  z-index: 2;
 }
 
 header.sticky nav ul {
@@ -901,7 +900,7 @@ nav ul li a:hover {
 }
 
 #theme-switcher svg {
-  z-index: 1;
+  z-index: 2;
   transition: var(--default-transition);
 }
 
