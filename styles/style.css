@@ -191,37 +191,10 @@ Primary use: Portfolio Template
 /* Define styles for different screen sizes */
 /* ================================================= */
 
-@media only screen and (max-width: 1595px) {
-  .row .experience {
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .row .experience .experience-item {
-    flex-direction: row;
-    width: 90%;
-  }
-  .row .experience .experience-item .experience-img-layer {
-    width: 20%;
-  }
-  .row .experience .experience-item .experience-text-layer {
-    width: 80%;
-  }
-  .row .experience .experience-item .experience-text-layer h1 {
-    padding-bottom: 1rem;
-  }
-  .row .experience .experience-item .experience-text-layer h3 {
-    padding-bottom: 1rem;
-  }
-  .container #experience-head-title {
-    margin-left: 0;
-  }
-}
-
-@media only screen and (max-width: 1527px) {
-  .body-top .about-me-text{
-    width: 100%;
+@media only screen and (max-width: 1528px) {
+  #bio-container .body-top .about-me-text {
     margin-right: 0;
+    width: 100%;
   }
 }
 
@@ -255,10 +228,6 @@ Primary use: Portfolio Template
   .body-top .about-me-text {
     width: 100%;
   }
-  body .about-me__body p {
-    padding-top: 2%;
-    padding-bottom: 1%;
-  }
   #work-container .portfolio {
     justify-content: center;
   }
@@ -267,17 +236,6 @@ Primary use: Portfolio Template
   }
   .row .experience .experience-item .experience-text-layer {
     width: 75%;
-  }
-  .row .int-row .interests {
-    flex-direction: column;
-  }
-  .row .int-row .interests .interest-item {
-    padding: 1rem 1.25rem 1rem 1rem;
-  }
-  .row #contact-title {
-    width: 20%;
-    height: auto;
-    padding-top: 1.5%;
   }
 }
 
@@ -290,7 +248,7 @@ Primary use: Portfolio Template
 }
 .open {
   height: 21rem;
-  z-index: 1100;
+  z-index: 2;
 }
 .hidden {
   display: none;
@@ -298,7 +256,6 @@ Primary use: Portfolio Template
 
 @media all and (max-width: 830px) {
   #sidemenu {
-    z-index: 1100;
     padding-top: 0.25rem;
     padding-left: 0.8rem;
   }
@@ -307,7 +264,7 @@ Primary use: Portfolio Template
   }
   header .container {
     flex-direction: column;
-    z-index: 1100;
+    z-index: 2;
     transition: var(--default-transition) 0.5s height ease-in-out;
   }
   header nav {
@@ -319,7 +276,6 @@ Primary use: Portfolio Template
   
   header nav ul {
     flex-direction: column;
-    
   }
   body header.sticky nav ul {
     padding: 0 1rem;
@@ -336,7 +292,7 @@ Primary use: Portfolio Template
     border-color: var(--mob-nav-border);
     padding: 0;
     margin: 0;
-    width: 99%;
+    width: 100%;
     font-family: 'PPNeueMontreal-Book'; 
   }
   header nav ul li:hover {
@@ -356,7 +312,6 @@ Primary use: Portfolio Template
     margin: 0.5rem 0 0 0.625rem;
     width: 4.25rem;
   }
-  
   .nav-toggle {
     display: block;
     position: absolute;
@@ -368,10 +323,7 @@ Primary use: Portfolio Template
   .navIcon line {
     stroke: var(--primary-text);;
   }
-  .container .about-me {
-    width: 100%;
-    margin: 0;
-  }
+
   #experience-container {
     padding: 0 1rem;
   }
@@ -407,9 +359,6 @@ Primary use: Portfolio Template
 }
 
 @media only screen and (max-width: 750px)  {
-  .row .experience .experience-item .experience-text-layer {
-    font-size: 0.875rem;
-  }
   body #bio-container{
     padding: 0 2rem;
   }
@@ -431,10 +380,6 @@ Primary use: Portfolio Template
   .row .experience .experience-item .experience-text-layer {
     width: 70%;
   }
-  .row .experience .experience-item .experience-text-layer {
-    font-size: 0.875rem;
-    line-height: 1.6;
-  }
   #footer-container #contact-title h2 {
     padding-top: 0;
   }
@@ -446,26 +391,12 @@ Primary use: Portfolio Template
   }
 }
 
-@media only screen and (max-width: 570px) {
-  .interests .interest-item {
-    font-size: 0.875rem;
-  }
-}
-
 @media only screen and (max-width: 535px) {
   #bio-container {
     padding: 0 20px;
   }
   .about-me #bio-title {
     margin-bottom: 1.5rem;
-  }
-  .section-title .font-alt {
-    font-size: 4rem;
-    line-height: 1.1;
-  }
-  .about-me-text .p1, .about-me-text .p2 {
-    font-size: 0.875rem;
-    line-height: 1.6;
   }
   .body-top .technologies h3 {
     font-size: 1.75rem;
@@ -477,9 +408,6 @@ Primary use: Portfolio Template
   }
   .technologies .devicon-board .box span {
     font-size: 10px;
-  }
-  .subheading-row .hs-title{
-    font-size: 3.75rem;
   }
   .portfolio .portfolio-card {
     width: 28rem;
@@ -558,9 +486,6 @@ Primary use: Portfolio Template
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  .body-full .body-top .technologies h3 {
-    font-size: 19px;
-  }
   .technologies {
     width: 33rem;
   }
@@ -616,9 +541,6 @@ Primary use: Portfolio Template
   .portfolio-card .info-layer .project-links .btn{
     height: 2.25rem;
     padding-top: 0.5rem;
-    font-size: 0.75rem;
-  }
-  .interests .interest-item {
     font-size: 0.75rem;
   }
   #footer-container #contact-title .profile-img {
@@ -783,11 +705,8 @@ body::before {
 }
 
 .row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
 }
 
 .hs-title {
