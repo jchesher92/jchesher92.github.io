@@ -259,6 +259,9 @@ Primary use: Portfolio Template
     padding-top: 0.25rem;
     padding-left: 0.8rem;
   }
+  #logo-link {
+    width: 10rem;
+  }
   .nav-logo {
     height: 3.75rem;
   }
