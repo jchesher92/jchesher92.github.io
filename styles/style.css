@@ -844,6 +844,11 @@ header .container {
   fill: var(--primary-text);
 }
 
+#layer1:hover #text111, #layer1:hover #rect515, #navClosed:hover, #navOpen:hover {
+  color: var(--button-text);
+  fill: var(--button-text);
+}
+
 nav {
   justify-content: space-between;
   transition: var(--default-transition);
@@ -916,10 +921,10 @@ nav ul li a:hover {
 -  Change background on mouse-over  -
 */
 
-body header nav h1 a:hover {
+/* body header nav h1 a:hover {
   color: var(--button-text);
   transition: var(--default-transition);
-}
+} */
 
 /* ================================================= */
 /* Hero */
