@@ -837,6 +837,7 @@ header .container {
 #logo {
   margin-left: 0.375rem;
   margin-top: 0.25rem;
+  cursor: pointer;
 }
 
 #text111, #rect515 {
@@ -844,7 +845,7 @@ header .container {
   fill: var(--primary-text);
 }
 
-#layer1:hover #text111, #layer1:hover #rect515, #navClosed:hover, #navOpen:hover {
+#logo-link:hover #logo #text111, #logo-link:hover #logo #rect515, #navClosed:hover, #navOpen:hover {
   color: var(--button-text);
   fill: var(--button-text);
 }
