@@ -193,6 +193,13 @@ Primary use: Portfolio Template
 
 @media only screen and (max-width: 1528px) {
   #bio-container .body-top .about-me-text {
+    margin-right: 5rem;
+    /* width: 100%; */
+  }
+}
+
+@media only screen and (max-width: 1496px) {
+  #bio-container .body-top .about-me-text {
     margin-right: 0;
     width: 100%;
   }
@@ -920,15 +927,6 @@ nav ul li a:hover {
 #icon-moon {
   fill: var(--icon-moon);
 }
-
-/*
--  Change background on mouse-over  -
-*/
-
-/* body header nav h1 a:hover {
-  color: var(--button-text);
-  transition: var(--default-transition);
-} */
 
 /* ================================================= */
 /* Hero */
