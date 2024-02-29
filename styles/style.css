@@ -191,13 +191,6 @@ Primary use: Portfolio Template
 /* Define styles for different screen sizes */
 /* ================================================= */
 
-@media only screen and (max-width: 1528px) {
-  #bio-container .body-top .about-me-text {
-    margin-right: 5rem;
-    /* width: 100%; */
-  }
-}
-
 @media only screen and (max-width: 1496px) {
   #bio-container .body-top .about-me-text {
     margin-right: 0;
@@ -1023,7 +1016,7 @@ nav ul li a:hover {
 .about-me-text {
   padding-top: 3rem;
   width: 50%;
-  margin-right: 10%;
+  margin-right: 8%;
   padding-bottom: 1.5rem;
 }
 
