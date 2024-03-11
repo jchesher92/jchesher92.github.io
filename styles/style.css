@@ -191,6 +191,18 @@ Primary use: Portfolio Template
 /* Define styles for different screen sizes */
 /* ================================================= */
 
+@media only screen and (max-width: 1536px) {
+  body #hero {
+    height: 40rem;
+  }
+  body #hero h1 {
+    padding-top: 17rem;
+  }
+  #hero .arrows-body {
+    padding-top: 9rem;
+  }
+}
+
 @media only screen and (max-width: 1496px) {
   #bio-container .body-top .about-me-text {
     margin-right: 0;
@@ -275,7 +287,6 @@ Primary use: Portfolio Template
     overflow: hidden;
     transition: 250ms height ease-in-out;
   }
-  
   header nav ul {
     flex-direction: column;
   }
@@ -947,7 +958,7 @@ nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 18.75rem;
+  padding-top: 16.75rem;
 }
 
 .arrow {
